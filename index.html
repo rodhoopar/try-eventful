@@ -81,7 +81,7 @@
                 
                 <p>From our experiences organizing such events, we think that a dynamic platform for an organizer to manage these staffers would significantly optimize the event experience. We imagine one cohesive platform for the organizer to assign and track tasks to individuals effectively. The organizer can push tasks to a stack and assign them to staffers. By forcing a staffer to accept and decline tasks individually, we place more accountability on the staffer to get a task done. We also allow the organizer can also visually track which tasks are in progress, done, or not started all in one convenient platform.</p>
                 <p>
-                    <a class="btn btn-default btn-lg" href="#">Take me to the app! &raquo;</a>
+                    <a class="btn btn-default btn-lg" href="https://eventful333.herokuapp.com/">Take me to the app! &raquo;</a>
                 </p>
             </div>
             <div class="col-sm-4">
@@ -112,21 +112,27 @@
                     <li>Added screen to add volunteers, including adding multiple at a time using some JS</li>
                     <li>Also made sure that this screen checks for valid phone numbers, no duplicate volunteers among the staffers</li>
                     <li>Created the management screen, which displays all the volunteers statuses and the ability to assign tasks to volunteers who are free</li>
-                    <li>We had to filter it such that only free ones would show up</li>
                     <li>Utilized Twilio rest API to assign out first texts</li>
                     <li>Used Twilio webhooks to parse texts and update statuses based on them</li>
                     <li>Learned celery to allow for asynchronous task reassignment</li>
-                    <li>Randomly reassigned tasks and sent texts if tasks were not picked up</li>
+                    <li>Implemented Random Assignment of Tasks</li>
+                    <li>Randomly reassigned pending tasks and sent texts if tasks were not picked up</li>
+                    <li>Dynamic reloading with JS- learned Pusher</li>
+                    <li>Made the UI</li>
+                    <li>Tested at IgniteSTEM</li>
+                    <li>Migrated to PostgressSQL</li>
+                    <li>Added invidual modals for volunteers and tasks</li>
+                    <li>Implemented direct message volunteers</li>
+                    <li>Implemented blast announcements</li>
+                    <li>Implemented announcements by Category</li>
+                    <li>Implemented settings for priority timeouts</li>
+                    <li>Implemented CSV upload</li>
+                    <li>Implemented end event</li>
+                    <li>Implemented summary statistics</li>
+                    <li>Implemented CSV download at end of event</li>
+                    <li>Added ability to reassign completed tasks</li>
                     </ul>
-                We are currently working on random assignment, which should be completed this week
-                Things to get done before alpha: 
-                    <ul style = "list-style-type:disc">
-                    <li>Dynamic reloading with JS</li>
-                    <li>Make the UI</li>
-                    <li>Find another place to try it out</li>
-                    </ul>
-                
-                    <a class="btn btn-default btn-lg" href="#">Take me to the app! &raquo;</a>
+                    <a class="btn btn-default btn-lg" href="https://eventful333.herokuapp.com/">Take me to the app! &raquo;</a>
                 </p>
             </div>
 
@@ -196,44 +202,44 @@
               </tr>
               <tr>
                 <td class="tg-yw4l">04/13 (Prototype)</td>
-                <td class="tg-yw4l">Finish prototype, unit test extensively</td>
-                <td class="tg-yw4l">Finish prototype, unit test extensively</td>
-                <td class="tg-yw4l">Finish prototype, unit test extensively</td>
+                <td class="tg-yw4l">Finish prototype, unit test extensively <b>(DONE)</b></td>
+                <td class="tg-yw4l">Finish prototype, unit test extensively <b>(DONE)</b></td>
+                <td class="tg-yw4l">Finish prototype, unit test extensively <b>(DONE)</b></td>
                 <td class="tg-yw4l">End of week -- Debut at IgniteSTEM 2017</td>
               </tr>
               <tr>
                 <td class="tg-yw4l">4/21</td>
-                <td class="tg-yw4l">Incorporate feedback from live test, into new features, fixing any mistakes</td>
-                <td class="tg-yw4l">Incorporate feedback from live test, into new features, fixing any mistakes</td>
-                <td class="tg-yw4l">Incorporate feedback from live test, into new features, fixing any mistakes</td>
+                <td class="tg-yw4l">Incorporate feedback from live test, into new features, fixing any mistakes  <b>(DONE)</b></td>
+                <td class="tg-yw4l">Incorporate feedback from live test, into new features, fixing any mistakes <b>(DONE)</b></td>
+                <td class="tg-yw4l">Incorporate feedback from live test, into new features, fixing any mistakes <b>(DONE)</b></td>
                 <td class="tg-yw4l"></td>
               </tr>
               <tr>
                 <td class="tg-yw4l">4/28</td>
-                <td class="tg-yw4l">Experiment with scheduling tasks for future notification (could be risky)</td>
-                <td class="tg-yw4l">Improve on UI based on feedback</td>
-                <td class="tg-yw4l">Modify input handling and database schema to account for times during the event a staffer may not be free</td>
+                <td class="tg-yw4l">Implement reassigning of completed tasks, settings for priority timeouts, backend for modals <b>(DONE)</b></td>
+                <td class="tg-yw4l">Improve on UI based on feedback-add individual modals and dynamic updating <b>(DONE)</b></td>
+                <td class="tg-yw4l">Modify input handling and database schema to account for times during the event a staffer may not be free <b>(DONE)</b></td>
                 <td class="tg-yw4l"></td>
               </tr>
               <tr>
                 <td class="tg-yw4l">05/04</td>
-                <td class="tg-yw4l">Reach out to events run by Princeton students to find another testing ground for the end of the week</td>
-                <td class="tg-yw4l">Allow tasks that are in the done column to be reassigned -- should be able to click on a task in that column, edit it, then send it out again</td>
-                <td class="tg-yw4l">Allow for concurrent management of events (one event, multiple organizers and multiple organizers, one event)</td>
-                <td class="tg-yw4l">End of week -- test improvements and new features at another real event</td>
+                <td class="tg-yw4l">TEST <b>(DONE)</b></td>
+                <td class="tg-yw4l">TEST <b>(DONE)</b></td>
+                <td class="tg-yw4l"> TEST <b>(DONE)</b></td>
+                <td class="tg-yw4l">End of week -- no new features at this point</td>
               </tr>
               <tr>
                 <td class="tg-yw4l">05/11 (Demo week)</td>
-                <td class="tg-yw4l">Prepare demo</td>
-                <td class="tg-yw4l">Prepare demo</td>
-                <td class="tg-yw4l">Prepare demo</td>
+                <td class="tg-yw4l">Prepare demo <b>(DONE)</b></td>
+                <td class="tg-yw4l">Prepare demo <b>(DONE)</b></td>
+                <td class="tg-yw4l">Prepare demo <b>(DONE)</b></td>
                 <td class="tg-yw4l">Last minute fixes/bugs</td>
               </tr>
               <tr>
                 <td class="tg-yw4l">05/14</td>
-                <td class="tg-yw4l">Final touches</td>
-                <td class="tg-yw4l">Final touches</td>
-                <td class="tg-yw4l">Final touches</td>
+                <td class="tg-yw4l">Final touches  <b>(DONE)</b></td>
+                <td class="tg-yw4l">Final touches <b>(DONE)</b></td>
+                <td class="tg-yw4l">Final touches <b>(DONE)</b></td>
                 <td class="tg-yw4l">Final touches</td>
               </tr>
             </table>
